@@ -1,7 +1,10 @@
 # Web Design @cmda-minor-web 1920
-* Shortcut keys
+* Shortcut keys to reduce amount of actions
+* Left hand on enter, shift, arrow keys
+* Track pad is operated by thumb
 * Enlarge click area/screen real estate
 * One primary action per screen, split up the action
+* Likes retro design, old school nerd style!
 * Increasing guitar riff when going up in date/ decreasing guitar riff when going down in date
 
 
