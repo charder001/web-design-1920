@@ -6,7 +6,7 @@
 * One primary action per screen, split up the action
 * Likes retro design, old school nerd style!
 * Increasing guitar riff when going up in date/ decreasing guitar riff when going down in date
-
+* Eindhoven > Amsterdam and back. Monday till tuesday afternoon
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
