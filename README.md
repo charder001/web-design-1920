@@ -14,6 +14,7 @@
 * Wat vond je van deze input methode?
 * Botst deze key mapping met je normale gebruik?
 * Volledig arrow key support komt nog
+* Leuke toevoeging van muziek?
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
