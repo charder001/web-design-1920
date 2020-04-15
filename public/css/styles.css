@@ -7,7 +7,7 @@ body {
 main {
     text-align: center;
     margin: auto;
-    width:40%;
+    width:60%;
     margin-top: 5em;
     font-size: 2em;
 }
@@ -19,6 +19,20 @@ label {
 
 input {
     font-size: 2em;
-    display: block;
     margin-top: 1em;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    margin: .5em;
+    text-decoration: none;
+    color:white;
+}
+
+a:focus {
+    color: red;
 }

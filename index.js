@@ -35,6 +35,9 @@ app.get('/overview', function(req, res) {
 	res.render("overview")
 });
 
+app.get('/test', function(req, res) {
+	res.render("test")
+});
 
 // Set up server
 app.listen(port, function() {
