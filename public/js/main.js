@@ -5,6 +5,8 @@ var numberTwo = 5;
 var month = document.querySelector("#Month")
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 var i = 3;
+var year = 2020;
+var yearSelection = document.querySelector("#Year")
 
 // dayNumberOne.addEventListener("focus", (function () {
 //     dayNumberOne.classList.add("active")
@@ -82,3 +84,33 @@ month.addEventListener("keydown", function(e){
         month.innerText = months[i]
     }
 })
+
+
+
+
+//set audio volume to 0.1
+function setVolume(){
+var Soty = document.querySelector("#SoTY")
+Soty.volume = 0.1;
+}
+
+yearSelection.addEventListener("keydown", function(e){
+    if (year > 2019) {
+        document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Five Finger Death Punch - Living the Dream</h1><audio id="SoTY" controls><source src="/audio/(2020) Five Finger Death Punch - Living the Dream.mp3" type="audio/mpeg">/audio>'
+        setVolume()
+    } else if (year > 2018){
+        document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Slipknot - Unsainted</h1><audio id="SoTY" controls><source src="/audio/(2019) Slipknot - Unsainted.mp3" type="audio/mpeg"></audio>'
+        setVolume()
+    } else if (year > 2017){
+        document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Judas Priest - Lightning Strike</h1><audio id="SoTY" controls><source src="/audio/(2019) (2018) Judas Priest - Lightning Strike.mp3" type="audio/mpeg"></audio>'
+        setVolume()
+    }
+    if (e.code === "ArrowUp") {
+        year ++
+        yearSelection.innerText = year
+    } else if (e.code === "ArrowDown"){
+        year --
+        yearSelection.innerText = year
+    }
+})
+
