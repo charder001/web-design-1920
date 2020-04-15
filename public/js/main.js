@@ -5,6 +5,7 @@ var numberTwo = 5;
 var month = document.querySelector("#Month")
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 var i = 3;
+var playing = false;
 var year = 2020;
 var yearSelection = document.querySelector("#Year")
 
@@ -58,6 +59,18 @@ document.addEventListener("keydown", function (e) {
         document.querySelector(".move:focus").previousElementSibling.focus()
     } else if (e.code === "Enter"){
         window.location.replace("/done");
+    }
+})
+
+document.addEventListener("keydown", function(e){
+    if (e.code === "ControlRight"){
+        var soty = document.querySelector("#SoTY")
+        soty.volume = 0.1;
+        soty.play()
+    } else if (e.code === "Shift"){
+        var soty = document.querySelector("#SoTY")
+        soty.volume = 0.1;
+        soty.pause()
     }
 })
 
