@@ -8,6 +8,13 @@
 * Increasing guitar riff when going up in date/ decreasing guitar riff when going down in date
 * Eindhoven > Amsterdam and back. Monday till tuesday afternoon, plans one hour+ ahead
 
+# Vragen voor Marijn
+* Heb je een vast schema wanneer je het OV gebruikt?
+* Plan je ook gelijk je terugreis of ook 1 uur vantevoren?
+* Wat vond je van deze input methode?
+* Botst deze key mapping met je normale gebruik?
+* Volledig arrow key support komt nog
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
