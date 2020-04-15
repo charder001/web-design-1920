@@ -20,23 +20,15 @@ app.use(express.static('public'));
 
 // Create a home route
 app.get('/', function(req, res) {
-	  res.render("home")
+	  res.render("landing.ejs")
 });
 
-app.get('/month', function(req, res) {
-	res.render("month")
+app.get('/home', function(req, res) {
+	res.render("home.ejs")
 });
 
-app.get('/day', function(req, res) {
-	res.render("day")
-});
-
-app.get('/overview', function(req, res) {
-	res.render("overview")
-});
-
-app.get('/test', function(req, res) {
-	res.render("test")
+app.get('/done', function(req, res) {
+	res.render("done.ejs")
 });
 
 // Set up server

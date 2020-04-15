@@ -8,21 +8,6 @@ var i = 3;
 var year = 2020;
 var yearSelection = document.querySelector("#Year")
 
-// dayNumberOne.addEventListener("focus", (function () {
-//     dayNumberOne.classList.add("active")
-// }))
-
-// dayNumberOne.addEventListener("blur", (function () {
-//     dayNumberOne.classList.remove("active")
-// }))
-
-// dayNumberTwo.addEventListener("focus", (function () {
-//     dayNumberTwo.classList.add("active")
-// }))
-
-// dayNumberTwo.addEventListener("blur", (function () {
-//     dayNumberTwo.classList.remove("active")
-// }))
 
 //Handle 10 increments
 dayNumberOne.addEventListener("keydown", (function (e) {
@@ -71,6 +56,8 @@ document.addEventListener("keydown", function (e) {
     } else if (e.code === "ArrowLeft") {
         console.log("previous")
         document.querySelector(".move:focus").previousElementSibling.focus()
+    } else if (e.code === "Enter"){
+        window.location.replace("/done");
     }
 })
 
@@ -84,8 +71,6 @@ month.addEventListener("keydown", function(e){
         month.innerText = months[i]
     }
 })
-
-
 
 
 //set audio volume to 0.1
@@ -102,7 +87,7 @@ yearSelection.addEventListener("keydown", function(e){
         document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Slipknot - Unsainted</h1><audio id="SoTY" controls><source src="/audio/(2019) Slipknot - Unsainted.mp3" type="audio/mpeg"></audio>'
         setVolume()
     } else if (year > 2017){
-        document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Judas Priest - Lightning Strike</h1><audio id="SoTY" controls><source src="/audio/(2019) (2018) Judas Priest - Lightning Strike.mp3" type="audio/mpeg"></audio>'
+        document.querySelector("#audio").innerHTML = '<h2>Song of the year: </h2><h1>Judas Priest - Lightning Strike</h1><audio id="SoTY" controls><source src="/audio/(2018) Judas Priest - Lightning Strike.mp3" type="audio/mpeg"></audio>'
         setVolume()
     }
     if (e.code === "ArrowUp") {
