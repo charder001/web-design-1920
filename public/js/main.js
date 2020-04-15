@@ -1,10 +1,10 @@
 var dayNumberOne = document.querySelector("#firstDayNumber")
 var dayNumberTwo = document.querySelector("#secondDayNumber")
-var numberOne = 0;
-var numberTwo = 1;
+var numberOne = 1;
+var numberTwo = 5;
 var month = document.querySelector("#Month")
-var months = ["January", "February", "March"]
-var i = 0;
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+var i = 3;
 
 // dayNumberOne.addEventListener("focus", (function () {
 //     dayNumberOne.classList.add("active")
@@ -22,6 +22,7 @@ var i = 0;
 //     dayNumberTwo.classList.remove("active")
 // }))
 
+//Handle 10 increments
 dayNumberOne.addEventListener("keydown", (function (e) {
     if (e.code === "ArrowUp" && numberOne < 3) {
         numberOne += 1;
@@ -39,6 +40,7 @@ dayNumberOne.addEventListener("keydown", (function (e) {
     }
 }))
 
+//handle day increments
 dayNumberTwo.addEventListener("keydown", (function (e) {
     if (e.code === "ArrowUp" && numberTwo < 9 && numberOne < 3) {
         numberTwo += 1;
@@ -59,6 +61,7 @@ dayNumberTwo.addEventListener("keydown", (function (e) {
     }
 }))
 
+//Move focus on arrow key RIGHT or LEFT
 document.addEventListener("keydown", function (e) {
     if (e.code === "ArrowRight") {
         console.log("next")
@@ -69,6 +72,7 @@ document.addEventListener("keydown", function (e) {
     }
 })
 
+//change months on UP or DOWN arrow key press
 month.addEventListener("keydown", function(e){
     if (e.code === "ArrowUp" && i < months.length -1) {
         i += 1
