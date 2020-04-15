@@ -7,6 +7,7 @@
 * Likes retro design, old school nerd style!
 * Increasing guitar riff when going up in date/ decreasing guitar riff when going down in date
 * Eindhoven > Amsterdam and back. Monday till tuesday afternoon, plans one hour+ ahead
+* Van werk naar huis over een uur, doorsturen naar NS Site
 
 # Vragen voor Marijn
 * Heb je een vast schema wanneer je het OV gebruikt?
