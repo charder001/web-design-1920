@@ -8,13 +8,17 @@ for (; i < 31; i++) {
 }
 
 
+
+
 document.querySelector("#wrapper").innerHTML = html
 document.querySelector(".test:nth-of-type(2)").classList.add("selected");
 document.querySelector(".test:first-of-type").classList.add("hide");
 document.querySelector(".test:nth-of-type(2)").focus()
 
 document.querySelector("body").addEventListener("keydown", function (e) {
-    var thisIndex = $(".selected").index();
+    // var thisIndex = $(".selected").index();
+    var thisIndex =indexInParent(document.querySelector('.selected'))
+    // console.log(thisIndex)
     var newIndex = null;
     if (e.keyCode === 75 || e.keyCode === 38) {
         // up
@@ -36,3 +40,14 @@ document.querySelector("body").addEventListener("keydown", function (e) {
     }
 
 });
+
+function indexInParent(node) {
+    var children = node.parentNode.childNodes;
+    var num = 0;
+    for (var i=0; i<children.length; i++) {
+         if (children[i]==node) return num;
+         if (children[i].nodeType==1) num++;
+    }
+    return -1;
+}
+console.log(indexInParent(document.querySelector('.selected')));

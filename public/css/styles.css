@@ -41,6 +41,10 @@ h1 {
     left: 0;
 }
 
+#spotifyLink:hover {
+    color: red;
+}
+
 .test {
     width: 100px;
     height: 100px;
