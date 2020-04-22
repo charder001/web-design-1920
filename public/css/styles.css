@@ -1,65 +1,54 @@
-html {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: black;
-    color: white;
     font-family: 'Metal Mania', cursive;
-
-}
-
-p{
-    font-size: 1.5em;
-}
-
-label {
-    font-size: 1.8em;
-    display: block;
-}
-
-input {
-    font-size: 1.8em;
-    margin-top: 1em;
-}
-
-section {
-    text-align: center;
-    width:60%;
-    margin: 1em auto 1em auto;
-    font-size: 1em;
-    font-size: 2em;
+    color: white;
+    margin: 0;
 }
 
 a {
-    margin: 0;
+    display: block;
+    width: max-content;
     text-decoration: none;
-    color:white;
+    color: white;
+    background-color: darkgray;
 }
 
-a:focus {
+.mainLink {
+    padding: .5em;
+    margin: .5em auto .5em auto;
+}
+
+a:focus, a:hover{
     color: red;
 }
 
-div {
+h1 {
+    background-color: white;
+    color: black;
+    padding: .5em;
+    top: 0;
+    left: 0;
+    margin: 0 0 1em 0;
+}
+
+#spotifyLink {
+    position: fixed;
+    font-size: 1.5em;
+    padding: 1em;
+    width: 100%;
     bottom: 0;
     left: 0;
-    width: 100%;
-    background-color: rgb(36, 36, 36);
-    position: absolute;
 }
 
-div > h1, div > h2 {
-    padding-left: .3em;
+.test {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    float: left;
 }
-
-audio {
-    padding: 0em 0em 1em 1em;
+#wrapper {
+    width: 800px;
 }
-
-#help {
-    background-color: red;
-    width: 100%;
-    text-align: center;
+.selected {
+    background-color: blue;
 }
