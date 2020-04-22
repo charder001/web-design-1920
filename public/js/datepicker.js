@@ -7,11 +7,13 @@ for (; i < 31; i++) {
     html += `<a href="day/${i}" class='test'>${i}</a>`;
 }
 
-$("#wrapper").append(html).children(":nth-of-type(2)").addClass("selected");
-$("#wrapper").children(":first").addClass("hide")
- document.querySelector(".test:nth-of-type(2)").focus()
 
-$("body").on("keydown", function (e) {
+document.querySelector("#wrapper").innerHTML = html
+document.querySelector(".test:nth-of-type(2)").classList.add("selected");
+document.querySelector(".test:first-of-type").classList.add("hide");
+document.querySelector(".test:nth-of-type(2)").focus()
+
+document.querySelector("body").addEventListener("keydown", function (e) {
     var thisIndex = $(".selected").index();
     var newIndex = null;
     if (e.keyCode === 75 || e.keyCode === 38) {
@@ -30,7 +32,7 @@ $("body").on("keydown", function (e) {
     }
     if (thisIndex) {
         console.log("test")
-        $(".selected").focus()
+        document.querySelector(".selected").focus()
     }
 
 });
