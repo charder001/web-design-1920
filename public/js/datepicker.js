@@ -18,6 +18,7 @@ document.querySelector(".test:nth-of-type(2)").focus()
 document.querySelector("body").addEventListener("keydown", function (e) {
     // var thisIndex = $(".selected").index();
     var thisIndex =indexInParent(document.querySelector('.selected'))
+    console.log(thisIndex)
     // console.log(thisIndex)
     var newIndex = null;
     if (e.keyCode === 75 || e.keyCode === 38) {
@@ -32,7 +33,9 @@ document.querySelector("body").addEventListener("keydown", function (e) {
         newIndex = thisIndex - 1
     }
     if (newIndex !== null) {
-        $(".test").eq(newIndex).addClass("selected").siblings().removeClass("selected");
+        // document.querySelectorAll(".test")[newIndex].classList.add("selected")
+        $(".test").eq(newIndex).addClass("selected")
+        .siblings().removeClass("selected");
     }
     if (thisIndex) {
         console.log("test")
