@@ -4,25 +4,25 @@ var blocksPerRow = 7;
 
 
 for (; i < 31; i++) {
-    html += `<a href="${i}" class='test'>${i}</a>`;
+    html += `<a href="day/${i}" class='test'>${i}</a>`;
 }
 
 $("#wrapper").append(html).children(":nth-of-type(2)").addClass("selected");
 $("#wrapper").children(":first").addClass("hide")
-// document.querySelector(".test:first-of-type").focus()
+ document.querySelector(".test:nth-of-type(2)").focus()
 
 $("body").on("keydown", function (e) {
     var thisIndex = $(".selected").index();
     var newIndex = null;
-    if (e.keyCode === 38) {
+    if (e.keyCode === 75 || e.keyCode === 38) {
         // up
         newIndex = thisIndex - blocksPerRow;
-    } else if (e.keyCode === 40) {
+    } else if (e.keyCode === 74 || e.keyCode === 40) {
         // down
         newIndex = thisIndex + blocksPerRow;
-    } else if (e.keyCode === 39) {
+    } else if (e.keyCode === 76 || e.keyCode === 39) {
         newIndex = thisIndex + 1
-    } else if (e.keyCode === 37) {
+    } else if (e.keyCode === 72 || e.keyCode === 37) {
         newIndex = thisIndex - 1
     }
     if (newIndex !== null) {
