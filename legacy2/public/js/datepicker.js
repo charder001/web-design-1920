@@ -7,9 +7,6 @@ for (; i < 31; i++) {
     html += `<a href="day/${i}" class='test'>${i}</a>`;
 }
 
-
-
-
 document.querySelector("#wrapper").innerHTML = html
 document.querySelector(".test:nth-of-type(2)").classList.add("selected");
 document.querySelector(".test:first-of-type").classList.add("hide");
@@ -17,7 +14,7 @@ document.querySelector(".test:nth-of-type(2)").focus()
 
 document.querySelector("body").addEventListener("keydown", function (e) {
     // var thisIndex = $(".selected").index();
-    var thisIndex =indexInParent(document.querySelector('.selected'))
+    var thisIndex = indexInParent(document.querySelector('.selected'))
     console.log(thisIndex)
     // console.log(thisIndex)
     var newIndex = null;
@@ -35,7 +32,7 @@ document.querySelector("body").addEventListener("keydown", function (e) {
     if (newIndex !== null) {
         // document.querySelectorAll(".test")[newIndex].classList.add("selected")
         $(".test").eq(newIndex).addClass("selected")
-        .siblings().removeClass("selected");
+            .siblings().removeClass("selected");
     }
     if (thisIndex) {
         console.log("test")
@@ -47,9 +44,9 @@ document.querySelector("body").addEventListener("keydown", function (e) {
 function indexInParent(node) {
     var children = node.parentNode.childNodes;
     var num = 0;
-    for (var i=0; i<children.length; i++) {
-         if (children[i]==node) return num;
-         if (children[i].nodeType==1) num++;
+    for (var i = 0; i < children.length; i++) {
+        if (children[i] == node) return num;
+        if (children[i].nodeType == 1) num++;
     }
     return -1;
 }
