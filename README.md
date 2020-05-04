@@ -13,6 +13,8 @@ During this course, each group of students was assigned a person for whom we wou
 ![68747470733a2f2f692e7974696d672e636f6d2f76692f385632357970685645496f2f6d617872657364656661756c742e6a7067](https://user-images.githubusercontent.com/43436118/80985602-bc2e9d00-8e2f-11ea-9db6-6d91effe1fad.jpg)
 [Credit - UCD16 - Interview with Marijn Meijles](https://www.youtube.com/watch?v=8V25yphVEIo)
 
+Marijn describes himself as driven, energetic, analytic and hates people that don't think.
+
 During my 3 prototype test sessions i got to know Marijn as a friendly, witty, intelligent guy who happens to have a motor deficiency, which makes it harder for him to use a keyboard or mouse. He is also a massive nerd and metalhead, so there are plenty of options to create something awesome! Here are some of my notes from my test sessions about Marijn and how he interacts with his macbook
 
 * Shortcut keys to reduce amount of actions, repeated actions can strain Marijn
@@ -36,6 +38,9 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * Marijn is able to use the track-pad well enough, as he uses it to click on the different inputs
 * Text inputs however, are quite difficult
 * Input fields could be larger
+* Plans train journey 1 hour beforehand
+
+## Test 2 - My first prototype
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
