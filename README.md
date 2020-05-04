@@ -24,6 +24,10 @@ During my 3 prototype test sessions i got to know Marijn as a friendly, witty, i
 * Likes retro design, old school nerd style!
 * Eindhoven > Amsterdam and back. Monday till tuesday afternoon, plans one hour+ ahead so transit personnel can help him
 
+For this exercise, i chose to develop a better way for Marijn to plan his transit journey from Eindhoven to Amsterdam and back.
+Since most datepicker aren't exactly accessible, keeping the user experience as simple as possible will be the key to helping Marijn.
+
+# Test 1 - What's already out there?
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
