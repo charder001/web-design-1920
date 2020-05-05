@@ -41,6 +41,8 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * Plans train journey 1 hour beforehand
 
 ## Test 2 - My first prototype
+For this prototype, i wanted to try a different method of selecting a date, which will hopefully be easier for Marijn to use.
+I did this by splitting day of the month selection into multiples of ten and single days. I also have a minimalist version of keyboard navigation to select different days, months and years, although this cant navigate between sections at the moment.
 ![marijn](https://user-images.githubusercontent.com/43436118/81084377-1134e680-8ef6-11ea-9c9f-765a46750fce.PNG)
 
 
@@ -89,8 +91,29 @@ for this prototype, i completely overhauled my concept. While my first idea was 
 ![marijn3](https://user-images.githubusercontent.com/43436118/81106483-fc684b00-8f15-11ea-9ca4-ec0755bd4201.PNG)
 
 Based on the feedback from the last testing session, i also added HJKL and arrow key navigation throughout every part of the website.
+Another big change has been the datepicker, which looks a lot more like a traditional calendar, and allows for arrow key and hjkl navigation and wraparound.
 
-* Notes from the testing
+![marijn4](https://user-images.githubusercontent.com/43436118/81107480-8ebd1e80-8f17-11ea-8d8b-bfb4cdf26450.PNG)
+
+### Study situation
+* Arrow key navigation
+* Calenday style date picker
+* Enlarged click area
+* Useable without trackpad
+* Created user story
+
+### Ignore conventions
+* Tab is not used in this concept, navigation happens through HJKL and the arrow keys
+
+### Prioritise identity
+* Randomly generated playlist
+* Font
+* Color pallete
+
+### Add nonsense
+* None
+
+### Notes from testing
 * Marijn quite liked the simplicity of my concept
 * Datepicker needs to default to the current day
 * Marijn also liked the generated spotify playlist based on his travel time
@@ -100,7 +123,10 @@ Based on the feedback from the last testing session, i also added HJKL and arrow
 * App needs more nonsense
 * Even though Marijn actually books from a different webpage, this is fine for demonstrative purpouses, since i can't get to his own login page, sadly.
 
-
+### Conclusion
+* Needs more nonsense and personality
+* Big improvements in usabillity, because of the HJKL, better date picker and MUCH simpler concept
+* Missing defaul state in date picker and month/time selection
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
