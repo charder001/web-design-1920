@@ -41,6 +41,28 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * Plans train journey 1 hour beforehand
 
 ## Test 2 - My first prototype
+![marijn](https://user-images.githubusercontent.com/43436118/81084377-1134e680-8ef6-11ea-9c9f-765a46750fce.PNG)
+
+
+![marijn2](https://user-images.githubusercontent.com/43436118/81084409-18f48b00-8ef6-11ea-98f5-5172b29d0426.PNG)
+
+
+* Marijn vond de font nice
+* Het eerst datepicker design was niet heel duidelijk, deze was te ver van verwachtingen
+* Arrow keys/hjkl mist door de hele app, marijn gebruikt nooit tab
+* Als de focus niet op de datepicker staat is deze lastig terug te krijgen
+* Bugs, 33e van de maand
+* Wat is de meest snelle/metal/nerdy manier om een datum te prikken?
+* wat is de user story?
+* song of the year was vet
+* Marijn heeft geen right control
+
+### Exclusive design
+Study situation
+Ignore conventions
+Prioritise identity
+Add nonsense
+
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
