@@ -15,7 +15,15 @@ During this course, each group of students was assigned a person for whom we wou
 
 Marijn describes himself as driven, energetic, analytic and hates people that don't think.
 
-During my 3 prototype test sessions i got to know Marijn as a friendly, witty, intelligent guy who happens to have a motor deficiency, which makes it harder for him to use a keyboard or mouse. He is also a massive nerd and metalhead, so there are plenty of options to create something awesome! Here are some of my notes from my test sessions about Marijn and how he interacts with his macbook
+
+## User scenario
+During my 3 prototype test sessions i got to know Marijn as a friendly, witty, intelligent guy who happens to have a motor deficiency, which makes it harder for him to use a keyboard or mouse. He is also a massive nerd and metalhead, so there are plenty of options to create something awesome! 
+
+For this exercise, i chose to develop a better way for Marijn to plan his transit journey from Eindhoven to Amsterdam and back.
+This is his commute from home to work, where he generally wants to leave as soon as possible. This is usually one hour beforehand, since the transit personnel has to help him. 
+Since most datepicker aren't exactly accessible, keeping the user experience as simple as possible will be the key to helping Marijn.
+
+Here are some of my notes from my test sessions about Marijn and how he interacts with his macbook
 
 * Shortcut keys to reduce amount of actions, repeated actions can strain Marijn
 * Left hand on enter, shift, arrow keys
@@ -25,9 +33,6 @@ During my 3 prototype test sessions i got to know Marijn as a friendly, witty, i
 * One primary action per screen, split up the action
 * Likes retro design, old school nerd style!
 * Eindhoven > Amsterdam and back. Monday till tuesday afternoon, plans one hour+ ahead so transit personnel can help him
-
-For this exercise, i chose to develop a better way for Marijn to plan his transit journey from Eindhoven to Amsterdam and back.
-Since most datepicker aren't exactly accessible, keeping the user experience as simple as possible will be the key to helping Marijn.
 
 ## Test 1 - What's already out there?
 <img width="359" alt="78996820-b05bfd80-7b45-11ea-9b3f-8c60157d92b7" src="https://user-images.githubusercontent.com/43436118/80986161-7920f980-8e30-11ea-89ea-9e8128e0d557.png">
