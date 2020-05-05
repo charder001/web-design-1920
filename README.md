@@ -77,7 +77,7 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * Marijn does not have a right control key
 
 ### Conclusion
-* Split day/month did not work as expected
+* Split day of the month picker did not work as expected
 * Don't use right control or tab, do use arrow keys and HJKL
 * Needs more personality
 * Needs more nonsense
