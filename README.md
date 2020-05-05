@@ -47,22 +47,20 @@ For this test, we decided to see how Marijn interacts with the default input typ
 ![marijn2](https://user-images.githubusercontent.com/43436118/81084409-18f48b00-8ef6-11ea-98f5-5172b29d0426.PNG)
 
 ### Study situation
-
-Studying Marijns situation led me to the following design principles for this prototype
 * Arrow key navigation
 * Quicker way to change date
 * Enlarged click area
 * Useable without trackpad
 
-Ignore conventions
+### Ignore conventions
 * Day of the month selection is split multiples of ten and single days, in order to try and increase efficiency
 
-Prioritise identity
+### Prioritise identity
 * Metal song of the year
 * Font
 * Color pallete
 
-Add nonsense
+### Add nonsense
 * None
 
 ### Notes from the second test
@@ -79,6 +77,12 @@ Add nonsense
 * Marijn does not have a right control key
 
 ### Conclusion
+* Split day/month did not work as expected
+* Don't use right control or tab, do use arrow keys and HJKL
+* Needs more personality
+* Needs more nonsense
+* Need to create a user story
+* Need to improve efficiency for Marijn specifically
 
 
 
