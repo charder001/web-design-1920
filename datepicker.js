@@ -1,18 +1,24 @@
 var i = 0;
 var html = "";
-var blocksPerRow = 7;
+var blocksPerRow = 5;
+var time = 12;
 var months = ["Januari", "Februari", "Maart", "April", "Mei", "Juni", 
 "Juli", "Augustus", "September", "Oktober", "November", "December"]
 var currentMonth = 4
-var monthHTML = `<a href="#" id='month'>${months[currentMonth]}</a>`
+var monthHTML = `<a href="#" class="top" id='month'>${months[currentMonth]}</a>`
+var timeHTML = `<a href="#" id="time" class="top">${time}:00</a>`
 
 for (; i < 31; i++) {
-    html += `<a href="https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2020-05-05T16:55" class='test'>${i}</a>`;
+    html += `<a target="_blank" href="https://www.ns.nl/reisplanner/#/?vertrek=Eindhoven%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Centraal&aankomsttype=treinstation&type=vertrek&tijd=2020-05-05T16:55" class='test'>${i}</a>`;
 }
 
+
+
 var main = document.querySelector("main")
+main.insertAdjacentHTML("beforeend", timeHTML)
 main.insertAdjacentHTML("afterbegin", monthHTML)
 var monthField = document.querySelector("#month")
+var timeField = document.querySelector("#time")
 
 document.querySelector("#wrapper").innerHTML = html
 document.querySelector(".test:nth-of-type(6)").classList.add("selected");
@@ -25,22 +31,29 @@ document.querySelector("body").addEventListener("keydown", function (e) {
     console.log(thisIndex)
     // console.log(thisIndex)
     var newIndex = null;
-    if (e.keyCode === 75 || e.keyCode === 38) {
+    if (e.keyCode === 38) {
         // up
         newIndex = thisIndex - blocksPerRow;
-    } else if (e.keyCode === 188 && currentMonth > 0){
+    } else if (e.keyCode === 72 && currentMonth > 0){
         currentMonth --
         monthField.innerText = months[currentMonth]
-    } else if (e.keyCode === 190 && currentMonth < 11){
+    } else if (e.keyCode === 76 && currentMonth < 11){
         currentMonth ++
         monthField.innerText = months[currentMonth]
     } 
-    else if (e.keyCode === 74 || e.keyCode === 40) {
+    else if (e.keyCode === 74 && time > 0){
+        time --
+        timeField.innerText = time + ":00"
+    }    else if (e.keyCode === 75 && time < 24){
+        time ++
+        timeField.innerText = time + ":00"
+    }
+    else if (e.keyCode === 40) {
         // down
         newIndex = thisIndex + blocksPerRow;
-    } else if (e.keyCode === 76 || e.keyCode === 39) {
+    } else if (e.keyCode === 39) {
         newIndex = thisIndex + 1
-    } else if (e.keyCode === 72 || e.keyCode === 37) {
+    } else if (e.keyCode === 37) {
         newIndex = thisIndex - 1
     }
     if (newIndex !== null) {
