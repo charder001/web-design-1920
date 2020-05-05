@@ -46,6 +46,26 @@ For this test, we decided to see how Marijn interacts with the default input typ
 
 ![marijn2](https://user-images.githubusercontent.com/43436118/81084409-18f48b00-8ef6-11ea-98f5-5172b29d0426.PNG)
 
+### Study situation
+
+Studying Marijns situation led me to the following design principles for this prototype
+* Arrow key navigation
+* Quicker way to change date
+* Enlarged click area
+* Useable without trackpad
+
+Ignore conventions
+* 
+
+Prioritise identity
+* Metal song of the year
+* Font
+* Color pallete
+
+Add nonsense
+* None
+
+### Notes from the second test
 
 * Marijn vond de font nice
 * Het eerst datepicker design was niet heel duidelijk, deze was te ver van verwachtingen
@@ -57,11 +77,8 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * song of the year was vet
 * Marijn heeft geen right control
 
-### Exclusive design
-Study situation
-Ignore conventions
-Prioritise identity
-Add nonsense
+
+
 
 
 
