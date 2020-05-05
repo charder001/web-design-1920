@@ -80,6 +80,11 @@ h3 {
     display: none;
 }
 
+
+#month {
+    margin-left: 2em;
+}
+
   span {
     color: #000;
     font-size: 3em;

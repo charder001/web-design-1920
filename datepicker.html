@@ -10,9 +10,10 @@
 <body>
     <a href="index.html" id="banner"><h1>Marijn's Datepicker</h1></a>
     <main>
+        
         <div id="wrapper"></div>
     </main>
-    <a id="spotifyLink" class="move" target="_blank"
+    <a onmouseover="PlaySound('mySound')" id="spotifyLink" class="move" target="_blank"
       href="https://open.spotify.com/playlist/37i9dQZF1DX2LTcinqsO68?si=nAmTQc68R3aSUXF2wRF1Dg">Hier is
       je gegenereerde       
       <span class="fire">P</span>
@@ -24,6 +25,8 @@
       <span class="burn">s</span>
       <span class="fire">t</span>    
       voor onderweg</a>
+
+      <audio id='mySound' src='riff.wav'/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="datepicker.js"></script>
 </body>
