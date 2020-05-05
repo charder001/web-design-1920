@@ -88,7 +88,17 @@ For this test, we decided to see how Marijn interacts with the default input typ
 for this prototype, i completely overhauled my concept. While my first idea was to have the datepicker as the main focus of my design, i opted to make things as simple as possible for Marijn. The homescreen of the website contains a few links where Marijn can plan his daily commute by selecting if he wants to go to or from Amsterdam in an hour, as this is his most used route. 
 ![marijn3](https://user-images.githubusercontent.com/43436118/81106483-fc684b00-8f15-11ea-9ca4-ec0755bd4201.PNG)
 
+Based on the feedback from the last testing session, i also added HJKL and arrow key navigation throughout every part of the website.
 
+* Notes from the testing
+* Marijn quite liked the simplicity of my concept
+* Datepicker needs to default to the current day
+* Marijn also liked the generated spotify playlist based on his travel time
+* The HJKL was a big improvement compared to my last prototype
+* Wraparound wasn't perfect
+* App could use a little bit more of Marijns personality
+* App needs more nonsense
+* Even though Marijn actually books from a different webpage, this is fine for demonstrative purpouses, since i can't get to his own login page, sadly.
 
 
 
