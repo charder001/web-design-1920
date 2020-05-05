@@ -84,6 +84,11 @@ For this test, we decided to see how Marijn interacts with the default input typ
 * Need to create a user story
 * Need to improve efficiency for Marijn specifically
 
+## Test 3 - the final prototype
+for this prototype, i completely overhauled my concept. While my first idea was to have the datepicker as the main focus of my design, i opted to make things as simple as possible for Marijn. The homescreen of the website contains a few links where Marijn can plan his daily commute by selecting if he wants to go to or from Amsterdam in an hour, as this is his most used route. 
+![marijn3](https://user-images.githubusercontent.com/43436118/81106483-fc684b00-8f15-11ea-9ca4-ec0755bd4201.PNG)
+
+
 
 
 
