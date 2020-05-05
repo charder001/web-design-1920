@@ -55,7 +55,7 @@ Studying Marijns situation led me to the following design principles for this pr
 * Useable without trackpad
 
 Ignore conventions
-* 
+* Day of the month selection is split multiples of ten and single days, in order to try and increase efficiency
 
 Prioritise identity
 * Metal song of the year
@@ -67,16 +67,18 @@ Add nonsense
 
 ### Notes from the second test
 
-* Marijn vond de font nice
-* Het eerst datepicker design was niet heel duidelijk, deze was te ver van verwachtingen
-* Arrow keys/hjkl mist door de hele app, marijn gebruikt nooit tab
-* Als de focus niet op de datepicker staat is deze lastig terug te krijgen
-* Bugs, 33e van de maand
-* Wat is de meest snelle/metal/nerdy manier om een datum te prikken?
-* wat is de user story?
-* song of the year was vet
-* Marijn heeft geen right control
+* Marijn liked the font
+* The day picker design clashed too much with his expectations of a normal datepicker
+* Marijn never uses the tab key
+* Arrow key functionality is still to sparse, could also use HJKL
+* When the datepicker loses focus, it's hard to regain
+* The 32nd of the month exists in this datepicker
+* What is the fastest/easiest/most metal way of picking a date?
+* What is the user story?
+* He liked the song of the year
+* Marijn does not have a right control key
 
+### Conclusion
 
 
 
