@@ -122,11 +122,26 @@ Another big change has been the datepicker, which looks a lot more like a tradit
 * App could use a little bit more of Marijns personality
 * App needs more nonsense
 * Even though Marijn actually books from a different webpage, this is fine for demonstrative purpouses, since i can't get to his own login page, sadly.
+* Playlist was only noticed when i pointed it out
 
 ### Conclusion
 * Needs more nonsense and personality
 * Big improvements in usabillity, because of the HJKL, better date picker and MUCH simpler concept
 * Missing defaul state in date picker and month/time selection
+
+## Final prototype
+After the 3rd test, i went and implemented some of the finishing touches and final feedback from Marijn and Vasillis.
+These include
+
+* Nonsense, in the form of an adventure! button, which takes you to a random station in the Netherlands
+* Added fire to the playlist link to make it stand out more
+* Made all the links in the landing page the same length, to avoid a shorter one looking like a submit button
+* Added NONSENSE guitar riff and shake on hover over the spotify link
+* Ignored conventions even more by adding a date and time picker which uses keys to avoid tab navigation
+
+![marijn5](https://user-images.githubusercontent.com/43436118/81108559-2a02c380-8f19-11ea-8af2-a73a36e4c7e1.PNG)
+
+![marijn6](https://user-images.githubusercontent.com/43436118/81108561-2a9b5a00-8f19-11ea-95cb-9daa103a8df6.PNG)
 
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
