@@ -8,7 +8,7 @@ for (; i < 31; i++) {
 }
 
 document.querySelector("#wrapper").innerHTML = html
-document.querySelector(".test:nth-of-type(2)").classList.add("selected");
+document.querySelector(".test:nth-of-type(6)").classList.add("selected");
 document.querySelector(".test:first-of-type").classList.add("hide");
 document.querySelector(".test:nth-of-type(2)").focus()
 
@@ -51,3 +51,8 @@ function indexInParent(node) {
     return -1;
 }
 console.log(indexInParent(document.querySelector('.selected')));
+
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
